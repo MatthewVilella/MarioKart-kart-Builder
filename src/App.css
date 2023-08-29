@@ -1,0 +1,175 @@
+@font-face {
+  font-family: mariokart;
+  src: url(../public/SuperMario256.ttf);
+}
+
+.Center {
+  text-align: center;
+  margin-top: 10px;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-image: url(../public/backgroundImages/purple.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.Title {
+  border: 2px solid white;
+  border-radius: 500px;
+  font-family: mariokart;
+  font-size: 30px;
+  color: white;
+}
+
+.Choices-container {
+  margin-top: 0px;
+  width: 820px;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-family: mariokart;
+  color: white;
+
+}
+
+.Choices {
+  border: none;
+  background-color: transparent;
+}
+
+.Choices:hover {
+  background-color: purple;
+}
+
+.Stats {
+  border-top: 2px dashed white;
+  font-family: mariokart;
+  font-size: 30px;
+  color: white;
+  margin-bottom: -5px;
+}
+
+.character-Container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 465px;
+  padding-right: 25px;
+}
+
+.character-Button {
+  flex: 0 0 calc(20% - 10px);
+  max-width: calc(21% - 31px);
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.character-Button img {
+  width: 100%;
+  height: auto;
+}
+
+.character-Button:hover {
+  background-color: purple;
+}
+
+.kart-Container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 565px;
+  margin: 0 auto;
+  padding-right: 20px;
+}
+
+.kart-Button {
+  flex: 0 0 calc(20% - 10px);
+  max-width: calc(32% - 76.50px);
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.kart-Button img {
+  width: 100%;
+  height: auto;
+}
+
+.kart-Button:hover {
+  background-color: purple;
+}
+
+.tire-Container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 364px;
+  margin: 0 auto;
+  padding-right: 20px;
+}
+
+.tire-Button {
+  flex: 0 0 calc(20% - 10px);
+  max-width: calc(35% - 9px);
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.tire-Button img {
+  width: 100%;
+  height: auto;
+}
+
+.tire-Button:hover {
+  background-color: purple;
+}
+
+.glider-Container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 299px;
+  margin: 0 auto;
+}
+
+.glider-Button {
+  flex: 0 0 calc(20% - 10px);
+  max-width: calc(39% - 5.25px);
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.glider-Button img {
+  width: 100%;
+  height: auto;
+}
+
+.glider-Button:hover {
+  background-color: purple;
+}
+
+.stats-bar-container {
+  align-items: center;
+}
+
+.stats-bar-fill {
+  height: 100%;
+  background-color: #950dbd;
+  height: 15px;
+  width: 200px;
+  transition: width 0.3s ease-in-out;
+  border-radius: 10px;
+  border: 1px solid white;
+}
